@@ -1,0 +1,10 @@
+body{
+    background-color: brown;
+    text-align: center;
+}
+img{
+    width: 60%;
+    border-radius: 25%;
+    border: 1px solid rgb(240, 229, 208);
+    box-shadow: 20px 20px 20px black;
+}

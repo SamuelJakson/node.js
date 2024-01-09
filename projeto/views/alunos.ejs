@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="alunos.css">
+    <title>Alunos</title>
+</head>
+<body>
+     <table border="2">
+     <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+     </tr>
+     <% alunos.forEach(function (element) { %>
+    <tr>
+         <td><%= element.nome %></td>
+         <td><%= element.idade %></td>  
+    </tr>
+         <% }); %>
+    </table>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    border-color: cornflowerblue;
+}
+th, td{
+    width: 200px;
+    font-size: 25px;
+}
